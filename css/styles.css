@@ -801,7 +801,8 @@ transform:translateY(0) ;
   border-radius: 4px;   
   left:50%;
   bottom: 50%;
- 
+  text-align: center;
+   
   transform:translate(-50%, +50%);
 }
 .modal-btn{
