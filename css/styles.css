@@ -86,16 +86,21 @@ button {
   left: 0;
   bottom: -32px;
   background-color: var(--accent-color);
+  
 }
 
 .menu-link {
   list-style: none;
   text-decoration: none;
+  color: var(--header-color);
   position: relative; 
   transition-property: color;
   transition-duration: 500ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
    
+}
+.menu-link.current{
+  color: var(--accent-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -356,6 +361,7 @@ h3 {
   .servises{
     position: relative;
     display: flex;
+   
    
   }
   .title-servises{
@@ -782,6 +788,8 @@ transform:translateY(0) ;
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top:0;
+  left: 0;
+  
   transition: opasity 500ms linear, visibility 500ms linear
 
 }
@@ -792,6 +800,7 @@ transform:translateY(0) ;
   background-color: #ffffff;
   border-radius: 4px;   
   left:50%;
+  bottom: 50%;
   transform:translate(-50%, +50%);
 }
 .modal-btn{
